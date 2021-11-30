@@ -4,12 +4,11 @@
 
 ## Resources
 
-* [departments.csv](Data/Extra Tables/departments.csv)
-* [dept_emp.csv](Data/Extra Tables/dept_emp.csv)
-* [dept_manager.csv](Data/Extra Tables/dept_manager.csv)
-* [employees.csv](Data/Extra Tables/employees.csv)
-* [salaries.csv](Data/Extra Tables/salaries.csv)
-* [titles.csv](Data/Extra Tables/titles.csv)
+* [departments.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/departments.csv)
+* [dept_emp.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/dept_emp.csv)
+* [dept_manager.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/dept_manager.csv)
+* [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv)
+* [salaries.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fbhttps://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/titles.csv)
 
 ## Development Environment
 
