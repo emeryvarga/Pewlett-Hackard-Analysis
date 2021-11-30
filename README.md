@@ -76,4 +76,8 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 ## Results
 
+* 37.6 % (90,398 / 240,124) of employees will be retiring in the near future
+* 63.8 % (57,668 / 90,398) of retiring employees have senior titles
+* 1.0 % (1,549 / (240,124 - 90,398)) of current employees are eligible for mentorship programs after retiring employees leave the company
+* 
 ## Summary
