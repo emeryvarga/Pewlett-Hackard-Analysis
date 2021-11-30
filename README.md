@@ -19,7 +19,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 * PostgreSQL
 
-## Results
+## Deliverable 1: The Number of Retiring Employees by Title
 
 *Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. The table pulls employee number, first name, and last name from [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv), and pulls the title from [titles.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/7dc3f5e57ad371108667c255c33d0c4b64e8680a/Data/Extra%20Tables/titles.csv). Furthermore, it uses the `DISTINCT ON` statement to fetch the most recent title of each employee by sorting the `to_date` column in descending order.
 
@@ -53,6 +53,9 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 **Table 2: Retiring Titles**
 
+
+## Deliverable 2: The Employees Eligible for the Mentorship Program
+
 *Table 3* lists employees who are eligible to participate in a mentorship program by filtering the data for birth dates between January 1, 1965 and December 31, 1965. Employee number, first name, last name, and birth date were retrieved from [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv), from_date and to_date were retrieved from [dept_emp.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/dept_emp.csv), and titles were retrieved from [titles.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/7dc3f5e57ad371108667c255c33d0c4b64e8680a/Data/Extra%20Tables/titles.csv).
 
 
@@ -71,5 +74,6 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 **Table 3: Mentorship Eligibility**
 
+## Results
 
 ## Summary
