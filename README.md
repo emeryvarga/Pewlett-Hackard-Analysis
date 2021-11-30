@@ -13,6 +13,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 * [dept_manager.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/dept_manager.csv)
 * [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv)
 * [salaries.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fbhttps://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/titles.csv)
+* [titles.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/7dc3f5e57ad371108667c255c33d0c4b64e8680a/Data/Extra%20Tables/titles.csv)
 
 ## Development Environment
 
@@ -20,7 +21,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 ## Results
 
-*Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. The table pulls employee number, first name, and last name from [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv), and pulls the title from the Titles table. Furthermore, it uses the `DISTINCT ON` statement to fetch the most recent title of each employee by sorting the `to_date` column in descending order.
+*Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. The table pulls employee number, first name, and last name from [employees.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/employees.csv), and pulls the title from [titles.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/7dc3f5e57ad371108667c255c33d0c4b64e8680a/Data/Extra%20Tables/titles.csv). Furthermore, it uses the `DISTINCT ON` statement to fetch the most recent title of each employee by sorting the `to_date` column in descending order.
 
 
 | emp_no | first_name	| last_name |	title |
