@@ -20,7 +20,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 ## Results
 
-*Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. Furthermore, it uses the DISTINCT ON statement to fetch the most recent title of each employee.
+*Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. The table pulls employee number, first name, and last name from the Employees table, and pulls the title from the Titles table. Furthermore, it uses the `DISTINCT ON` statement to fetch the most recent title of each employee by sorting the `to_date` column in descending order.
 
 
 | emp_no | first_name	| last_name |	title |
@@ -38,7 +38,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 **Table 1: Unique Titles**
 
-*Table 2* uses the COUNT function to .
+*Table 2* uses the `COUNT` function to list the number of titles filled by employees who are retiring. This table helps Perlett Hackard determine which positions will need to be filled within the next few years.
 
 |count|title|
 | ------ | ---------- |
