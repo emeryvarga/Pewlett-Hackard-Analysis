@@ -56,6 +56,7 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 
 |emp_no|first_name|last_name|birth_date|from_date|to_date|title|
+| ------ | ---------- | --------- | ----- |---------- | --------- | ----- |
 |10095|Hilari|Morton|23745|34403|2958101|Staff|
 |10122|Ohad|Esposito|23761|36013|2958101|Technique Leader|
 |10291|Dipayan|Seghrouchni|23765|31866|2958101|Staff|
