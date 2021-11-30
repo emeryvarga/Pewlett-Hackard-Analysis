@@ -2,6 +2,10 @@
 
 ## Project Overview
 
+The purpose of this project is to generate alist of all empoyees eligible for a retirement package at Perlett Hackard and determine which positions will need to be filled in the next few years.
+
+
+
 ## Resources
 
 * [departments.csv](https://github.com/emeryvarga/Pewlett-Hackard-Analysis/blob/fb451b0afe0bbc46a729167bc21af12271859ac7/Data/Extra%20Tables/departments.csv)
@@ -15,6 +19,9 @@
 * PostgreSQL
 
 ## Results
+
+*Table 1* lists employees eligible for retirment by filtering the data for birth dates beween January 1, 1952 and December 31, 1955. Furthermore, it uses the DISTINCT ON statement to fetch the most recent title of each employee.
+
 
 | emp_no | first_name	| last_name |	title |
 | ------ | ---------- | --------- | ----- |
@@ -31,7 +38,18 @@
 
 **Table 1: Unique Titles**
 
+*Table 2* uses the COUNT function to .
 
+|count|title|
+| ------ | ---------- |
+|29414|Senior Engineer|
+|28254|Senior Staff|
+|14222|Engineer|
+|12243|Staff|
+|4502|Technique Leader|
+|1761|Assistant Engineer|
+|2|Manager|
 
+**Table 2: Retiring Titles**
 
 ## Summary
