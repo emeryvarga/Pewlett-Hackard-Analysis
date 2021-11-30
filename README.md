@@ -53,20 +53,20 @@ The purpose of this project is to generate alist of all empoyees eligible for a 
 
 **Table 2: Retiring Titles**
 
-
+*Table 3* lists employees who are eligible to participate in a mentorship program by filtering the data for birth dates between January 1, 1965 and December 31, 1965. 
 
 |emp_no|first_name|last_name|birth_date|from_date|to_date|title|
 | ------ | ---------- | --------- | ----- |---------- | --------- | ----- |
-|10095|Hilari|Morton|23745|34403|2958101|Staff|
-|10122|Ohad|Esposito|23761|36013|2958101|Technique Leader|
-|10291|Dipayan|Seghrouchni|23765|31866|2958101|Staff|
-|10476|Kokou|Iisaka|23743|32040|2958101|Staff|
-|10663|Teunis|Noriega|23751|36203|2958101|Technique Leader|
-|10762|Lech|Himler|23761|33624|2958101|Staff|
-|10933|Juyoung|Seghrouchni|23766|34183|2958101|Senior Engineer|
-|12155|Keiichiro|Glinert|23763|34228|2958101|Senior Engineer|
-|12408|Rasiah|Sudkamp|23752|34807|2958101|Senior Engineer|
-|12643|Morrie|Schurmann|23772|36160|2958101|Staff|
+|10095|Hilari|Morton|1/3/1965|3/10/1994|1/1/9999|Staff|
+|10122|Ohad|Esposito|1/19/1965|8/6/1998|1/1/9999|Technique Leader|
+|10291|Dipayan|Seghrouchni|1/23/1965|3/30/1987|1/1/9999|Staff|
+|10476|Kokou|Iisaka|1/1/1965|9/20/1987|1/1/9999|Staff|
+|10663|Teunis|Noriega|1/9/1965|2/12/1999|1/1/9999|Technique Leader|
+|10762|Lech|Himler|1/19/1965|1/21/1992|1/1/9999|Staff|
+|10933|Juyoung|Seghrouchni|1/24/1965|8/2/1993|1/1/9999|Senior Engineer|
+|12155|Keiichiro|Glinert|1/21/1965|9/16/1993|1/1/9999|Senior Engineer|
+|12408|Rasiah|Sudkamp|1/10/1965|4/18/1995|1/1/9999|Senior Engineer|
+|12643|Morrie|Schurmann|1/30/1965|12/31/1998|1/1/9999|Staff|
 
 **Table 3: Mentorship Eligibility**
 
